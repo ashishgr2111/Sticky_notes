@@ -1,0 +1,34 @@
+.addmessage {
+  margin: 10px 30px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;        
+}
+
+.msgBox {
+  position: relative;
+  width: 200px;
+  background: #eee;
+  margin-top: 30px;
+  margin-left: 30px; 
+}
+
+.msgBox p {
+  line-height: 1.5;
+  padding: 10px 20px;
+  color: #333;
+}
+
+.msgBox #closeButton {
+  background: none;
+  border-radius: 50px;
+  border: 2px solid red;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-size: 1.1rem;
+  color: #aaa;
+}
