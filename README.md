@@ -9,4 +9,4 @@ Make important notes here..
 5. Gives user the option to view between "order by Creation" and "order by Update".
 
 **HOW TO RUN:**
-Copy above file in your favourite text editor and run it on your browser.
+Save the above files in your directory and run *index.html* on your browser.
