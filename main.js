@@ -58,6 +58,12 @@ function displayMessage() {
     let answer = prompt("Do u really want to delete this note?? Yes/No");
     if(answer.toLowerCase()[0] === 'y'){
       panel.parentNode.removeChild(panel);
+      CreatedSort = CreatedSort.filter(function(value){
+        return (value !== panel);
+      })
+      UpdatedSort = UpdatedSort.filter(function(value){
+        return (value !== panel);
+      })
     }
   }
 }
